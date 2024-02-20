@@ -84,7 +84,7 @@ public class Convert extends HttpServlet {
                 out.println(" "+nextToken);
             }
         } catch (NumberFormatException e) {
-            out.println("The given amount is not a valid number");
+            System.Out.Println("The given amount is not a valid number");
         }
     }
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
